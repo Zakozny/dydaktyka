@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alan Matłach">
+    <title>Walidacja - Alan Matłach</title>
+</head>
+<body bgcolor="lightgray">
+    <h1 align="center">Walidacja stron WWW</h1>
+    
+    <h2>Co to jest walidacja strony HTML?</h2>
+    <p>
+        <strong>Walidacja strony HTML</strong> to proces sprawdzania poprawności kodu źródłowego strony internetowej 
+        pod kątem zgodności ze standardami określonymi przez organizację W3C (World Wide Web Consortium). 
+        Polega na weryfikacji, czy kod HTML został napisany zgodnie z zasadami składni i semantyki 
+        danego standardu (np. HTML5).
+    </p>
+    
+    <h2>Czym jest walidator?</h2>
+    <p>
+        <strong>Walidator</strong> to narzędzie (program lub usługa online), które automatycznie sprawdza 
+        poprawność kodu HTML, CSS lub XML. Najpopularniejszym walidatorem jest 
+        <a href="http://validator.w3.org/" target="_blank">W3C Markup Validation Service</a>, 
+        który porównuje kod strony ze standardami W3C i wskazuje wszystkie błędy oraz ostrzeżenia.
+    </p>
+    
+    <h2>Wyniki walidacji mojej strony</h2>
+    
+    <h3>Przed poprawką - strona z błędami:</h3>
+    <p>
+        <img src="blad_matłach.jpg" 
+             width="800" 
+             height="600" 
+             alt="Zrzut ekranu z błędami walidacji - Alan Matłach"
+             border="1">
+    </p>
+    
+    <h3>Po poprawce - strona bez błędów:</h3>
+    <p>
+        <img src="poprawa_matłach.jpg" 
+             width="800" 
+             height="600" 
+             alt="Zrzut ekranu bez błędów walidacji - Alan Matłach"
+             border="1">
+    </p>
+    
+    <h2>Najczęstsze błędy znalezione podczas walidacji:</h2>
+    <ul>
+        <li>Użycie przestarzałych znaczników &lt;font&gt;, &lt;center&gt;, &lt;u&gt;, &lt;s&gt;</li>
+        <li>Brak zamknięcia cudzysłowów w atrybutach</li>
+        <li>Użycie atrybutu 'align' zamiast CSS</li>
+        <li>Użycie atrybutu 'bgcolor' zamiast CSS</li>
+        <li>Błędne zagnieżdżenie znaczników</li>
+        <li>Użycie przestarzałego atrybutu 'border' w znaczniku &lt;img&gt;</li>
+    </ul>
+    
+    <h2>Korzyści z walidacji:</h2>
+    <ol>
+        <li>Zapewnienie poprawnego wyświetlania strony we wszystkich przeglądarkach</li>
+        <li>Lepsze pozycjonowanie w wyszukiwarkach (SEO)</li>
+        <li>Szybsze ładowanie strony</li>
+        <li>Łatwiejsze utrzymanie i rozbudowa kodu</li>
+        <li>Lepsza dostępność dla osób niepełnosprawnych</li>
+    </ol>
+    
+    <p align="center">
+        <a href="index.html">wróć</a> do strony głównej
+    </p>
+    
+    <p align="center">
+        <a href="http://validator.w3.org/check?uri=referer">
+            <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3.png" 
+                 width="133" 
+                 height="64" 
+                 alt="Valid HTML5" 
+                 title="Valid HTML5">
+        </a>
+    </p>
+</body>
+</html>

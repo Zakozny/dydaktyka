@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+  <html lang="pl-PL"> 
+<html> 
+     <head> 
+             <meta charset="utf-8"> 
+             <title> ZADANIE FORMULARZ o jedzeniu     </title> 
+     </head> 
+ <body bgcolor="#0000FF">
+<center><h1> formularz o jedzeniu</h1></center>
+<form enctype="text/plain" action="mailto:twoj_adres@wp.pl" subject="formularz_dane" method="Post"> 
+  <TABLE> 
+ <TR height="100">
+                  <TD width="500">
+                         <b>Imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp  
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="22"> 
+                           <br><br> 
+                               <b>Drugie imię</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22">  
+                               <br><br> 
+                             <b>Nazwisko </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp <input name="nazwisko" size="22">  
+                               <br><br> 
+                             <b>Pseudonim artystyczny</b>&nbsp &nbsp<input name="login" size="22"><nobr> 
+<br>
+                          </TD> 
+                          <TD width="300">
+                          <center><font size="5" color="red"><b>jak często jesz posiłki w restauracjach lub barach? (opcjonalne)</b></font></center><br> 
+                                 <option value="codziennie">codzieninie</option> 
+                                 <option value="kilka razy w tygodniu">kilka razy w tygodniu</option> 
+                                 <option value="rzadziej">rzadziej</option> 
+                                 <option value="nigdy">nigdy</option> 
+                              </select> </center> 
+                           </TD>
+                          <TD width="500">
+                          <center><font size="5" color="red"><b>jakie rodzaje kuchni lubisz najbardziej? (można zaznaczyć kilka)</b></font></center><br> 
+                            <center>  <select> 
+                                 <option value="Polska">Polska</option> 
+                                 <option value="włoska">włoska</option> 
+                                 <option value="azjatycka">azjatycka</option> 
+                                 <option value="wegetariańska">wegetariańska</option> 
+                                 <option value="fast food">fast food"</option> 
+                                 <option value="inne">inne</option> 
+                              </select> </center> 
+                           </TD> 
+                             <TD width="700">
+                               <center><font size="5" color="red"><b>jak oceniasz swoje nawyki żywieniowe</b></font></center><br> 
+                               <center>  <select> 
+                                 <option value="bardzo zdrowe">bardzo zdrowe</option> 
+                                 <option value="raczej zdrowe">raczej zdrowe</option> 
+                                 <option value="przeciętne">przeciętne</option> 
+                                 <option value="raczej niezdrowe">raczej niezdrowe</option> 
+                                 <option value="bardzo niezdrowe">bardzo niezdrowe"</option>  
+                              </select> </center>
+        </TR> 
+
+ <TR height="200"> 
+                            <TD width="300">
+                          <center><font size="5" color="red"><b>czy masz jakieś alergię lub nietolerancje pokarmowe?</b></font></center><br> 
+              <br><br> 
+ <input type="checkbox" name="alergia" value="k"> tak
+ <br><br> 
+ <input type="checkbox" name="alergia" value="m"> nie
+ <br><br> 
+                           </TD>
+                         <TD width="500"><font size="5" color="red"><b>jaki jest twój ulubiony posiłek w ciągu dnia? 
+ <br><br> 
+ <input type="checkbox" name="ciastko" value="k"> śniadanie
+ <br><br> 
+ <input type="checkbox" name="ciastko" value="m"> obiad
+ <br><br> 
+ <input type="checkbox" name="ciastko" value="inna"> kolacja
+ <br><br> 
+ <input type="checkbox" name="ciastko" value="inna"> przekąski
+ <br><br> 
+ <input type="checkbox" name="ciastko" value="inna"> inne  
+ <br><br><br> 
+                              </select> </center> 
+                           </TD> 
+                   <TD width="700"><font size="5" color="red"><b>oceń poniższy aspekt jedzenia (w skali 1-5 od lewej 1,2,3,4,5) (1=bardzo słabo 5=bardzo dobre)
+ <br><br> 
+ <input type="checkbox" name="1" value="1"><input type="checkbox" name="2" value="2"><input type="checkbox" name="3" value="3"> <input type="checkbox" name="4" value="4"><input type="checkbox" name="5" value="5">smak
+ <br><br> 
+  <input type="checkbox" name="1" value="1"><input type="checkbox" name="2" value="2"><input type="checkbox" name="3" value="3"> <input type="checkbox" name="4" value="4"><input type="checkbox" name="5" value="5">wygląd
+ <br><br> 
+  <input type="checkbox" name="1" value="1"><input type="checkbox" name="2" value="2"><input type="checkbox" name="3" value="3"> <input type="checkbox" name="4" value="4"><input type="checkbox" name="5" value="5">świeżość
+ <br><br> 
+ <input type="checkbox" name="1" value="1"><input type="checkbox" name="2" value="2"><input type="checkbox" name="3" value="3"> <input type="checkbox" name="4" value="4"><input type="checkbox" name="5" value="5">cena do jakości
+ <br><br><br> 
+                   </select> </center>
+        </TD>
+        </TR> 
+        
+  <TR height="400"> 
+                          <TD><button onclick="alert('A kuku')" style="height:80px;width:300px">Przycisk niespodzianka</button></TD>  
+                          <TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"></TD>  
+                          <TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"></TD> 
+        </TR> 
+<a href="index.html">wróć</a> do strony głównej
+  </TABLE> 
+</form> 
+ </body>
